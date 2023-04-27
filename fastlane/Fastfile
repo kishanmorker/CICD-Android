@@ -1,0 +1,140 @@
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+#------ :Note: ------#------ :Note: ------#------ :Note: ------#------ :Note: ------#
+# If you are facing 'gradlew' permission issues,
+# Simply run this code in Terminal --->
+#   chmod +x gradlew
+# It will give execution permission to Gradle.
+#------ :#: ------#------ :#: ------#------ :#: ------#------ :#: ------#------ :#:
+
+PACKAGE_NAME = "com.smartcodies.cicddemo"
+FIREBASE_APP_ID = "1:217528119112:android:5176557d338e0fa7e2cd7d"
+
+FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+
+RELEASE_NOTES_FILE = "./FirebaseAppDistributionConfig/release_notes.txt"
+TESTERS_FILE = "./FirebaseAppDistributionConfig/testers.txt"
+TESTER_GROUPS_FILE = "./FirebaseAppDistributionConfig/groups.txt"
+
+KEYSTORE_PATH = "/Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-[New]/CicdDemo/keystore/cicdkeystore"
+KEYSTORE_PASSWORD = "cicdkeystore"
+KEYSTORE_ALIAS = "cicdkeystore"
+
+APK_FILE_PATH = "./app/build/outputs/apk/release/app-release.apk"
+BUNDLE_FILE_PATH = "./app/build/outputs/bundle/release/app-release.aab"
+FLAVOR_NAME = ""
+
+default_platform(:android)
+# platform :android do
+
+#   before_all do
+#     ENV["PACKAGE_NAME"] = "com.cicddemo"
+#   end
+
+    desc "Lane For Incrementing versionCode, Firebase app distribution, Play store upload & git commit"
+    lane :buildAndDistribute do
+        # run_unit_tests()
+        if prompt(text: "Do you want to increment versionCode?", boolean: true) then incrementVersionCodeInProjectGradle() end
+        if prompt(text: "Do you want to share build/Apk to firebase?", boolean: true) then distributeReleaseBuildToFirebase() end
+        if prompt(text: "Do you want to upload your app to PlayStore?", boolean: true) then distributeToPlayStore() end
+        if prompt(text: "Do you want to commit code to Git?", boolean: true) then commitCodeToGit() end
+
+        puts "Execution of all Fastlane(s) is Done..."
+    end
+
+
+    ####
+    desc "Lane For fetching version code from play console and incrementing version code."
+    private_lane :incrementVersionCodeInProjectGradle do
+      version_code_from_play_store_strings = google_play_track_version_codes(
+        package_name: PACKAGE_NAME,   # ENV["PACKAGE_NAME"]
+        track: "internal",            # this can be alpha, beta, internal, production etc.
+        json_key: PLAY_STORE_LOGIN_CREDENTIALS,
+      )
+      version_code_from_play_store = version_code_from_play_store_strings[0].to_i
+      incremented_version_code = version_code_from_play_store + 1
+      increment_version_code(
+        gradle_file_path: Dir.pwd + "/../app/build.gradle",
+        version_code: incremented_version_code.to_i
+      )
+    end
+
+    ####
+    desc "Lane for distributing Release app using Firebase App Distributions."
+    private_lane :distributeReleaseBuildToFirebase do
+        buildApk() # Lane For Building the .apk file
+
+        firebase_app_distribution(
+            android_artifact_path: APK_FILE_PATH, # path of .apk/.aab bundle file
+            android_artifact_type: "APK", # it can be APK, AAB
+            app: FIREBASE_APP_ID,
+            service_credentials_file: FIREBASE_LOGIN_CREDENTIALS,
+            release_notes_file: RELEASE_NOTES_FILE,
+            testers_file: TESTERS_FILE,
+            #testers: "kishan.morker@gmail.com, kishan.morker@differenzsystem.com",
+            groups_file: TESTER_GROUPS_FILE,
+            #groups: "qa-team, trusted-testers, pro-testers"
+            debug: false, # set true for debug mode
+        )
+    end
+
+    ####
+    desc "Lane For Building the .apk file."
+    private_lane :buildApk do
+      gradle(
+             task: "assemble",
+             flavor: FLAVOR_NAME,
+             build_type: "Release",
+             properties: {
+               "android.injected.signing.store.file" => KEYSTORE_PATH,
+               "android.injected.signing.store.password" => KEYSTORE_PASSWORD,
+               "android.injected.signing.key.alias" => KEYSTORE_ALIAS,
+               "android.injected.signing.key.password" => KEYSTORE_PASSWORD
+      })
+    end
+
+    ####
+    desc "Lane For Building the .aab file."
+    private_lane :buildBundle do
+      gradle(
+        task: "bundle",
+        build_type: "Release",
+        properties: {
+          "android.injected.signing.store.file" => KEYSTORE_PATH,
+          "android.injected.signing.store.password" => KEYSTORE_PASSWORD,
+          "android.injected.signing.key.alias" => KEYSTORE_ALIAS,
+          "android.injected.signing.key.password" => KEYSTORE_PASSWORD
+        }
+      )
+    end
+
+    ####
+    desc "Lane For uploading .aab to play store."
+    private_lane :distributeToPlayStore do
+      buildBundle() # Lane For Building the .aab file
+
+      upload_to_play_store(
+        track: "internal", # it can be -> production, beta, alpha, internal
+        release_status: "draft", # used when uploading new apks/aabs - valid values are -> completed, draft, halted, inProgress
+        aab: BUNDLE_FILE_PATH,
+        json_key: PLAY_STORE_LOGIN_CREDENTIALS,
+        package_name: PACKAGE_NAME,
+        skip_upload_screenshots: true,
+        skip_upload_apk: true,
+      )
+    end
+
+    ####
+    desc "Lane For git commit."
+    private_lane :commitCodeToGit do
+        git_add(path: "*") # Directly add all files
+        git_commit(path: "*") # Directly commit the given file with the given message/will be asked for the message
+
+        push_to_git_remote(
+#             force: true,
+        )
+    end
+
+# end
