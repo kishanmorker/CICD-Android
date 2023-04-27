@@ -128,7 +128,7 @@ default_platform(:android)
 
     ####
     desc "Lane For git commit."
-    private_lane :commitCodeToGit do
+     lane :commitCodeToGit do
         git_add(path: "*") # Directly add all files
         git_commit(path: "*") # Directly commit the given file with the given message/will be asked for the message
 
