@@ -21,6 +21,46 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Lane For Incrementing versionCode, Firebase app distribution, Play store upload & git commit
 
+### incrementVersionCodeInProjectGradle
+
+```sh
+[bundle exec] fastlane incrementVersionCodeInProjectGradle
+```
+
+Lane For fetching version code from play console and incrementing version code.
+
+### distributeReleaseBuildToFirebase
+
+```sh
+[bundle exec] fastlane distributeReleaseBuildToFirebase
+```
+
+Lane for distributing Release app using Firebase App Distributions.
+
+### buildApk
+
+```sh
+[bundle exec] fastlane buildApk
+```
+
+Lane For Building the .apk file.
+
+### buildBundle
+
+```sh
+[bundle exec] fastlane buildBundle
+```
+
+Lane For Building the .aab file.
+
+### distributeToPlayStore
+
+```sh
+[bundle exec] fastlane distributeToPlayStore
+```
+
+Lane For uploading .aab to play store.
+
 ### commitCodeToGit
 
 ```sh

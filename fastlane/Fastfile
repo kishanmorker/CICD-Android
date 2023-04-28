@@ -11,8 +11,10 @@
 PACKAGE_NAME = "com.smartcodies.cicddemo"
 FIREBASE_APP_ID = "1:217528119112:android:5176557d338e0fa7e2cd7d"
 
-FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
-PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+# FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/final.json"
+# PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/final.json"
 
 RELEASE_NOTES_FILE = "./FirebaseAppDistributionConfig/release_notes.txt"
 TESTERS_FILE = "./FirebaseAppDistributionConfig/testers.txt"
@@ -26,8 +28,7 @@ APK_FILE_PATH = "./app/build/outputs/apk/release/app-release.apk"
 BUNDLE_FILE_PATH = "./app/build/outputs/bundle/release/app-release.aab"
 FLAVOR_NAME = ""
 
-default_platform(:android)
-# platform :android do
+default_platform(:android) # Defines a default platform to not have to specify the platform
 
 #   before_all do
 #     ENV["PACKAGE_NAME"] = "com.cicddemo"
@@ -47,7 +48,7 @@ default_platform(:android)
 
     ####
     desc "Lane For fetching version code from play console and incrementing version code."
-    private_lane :incrementVersionCodeInProjectGradle do
+    lane :incrementVersionCodeInProjectGradle do
       version_code_from_play_store_strings = google_play_track_version_codes(
         package_name: PACKAGE_NAME,   # ENV["PACKAGE_NAME"]
         track: "internal",            # this can be alpha, beta, internal, production etc.
@@ -63,7 +64,7 @@ default_platform(:android)
 
     ####
     desc "Lane for distributing Release app using Firebase App Distributions."
-    private_lane :distributeReleaseBuildToFirebase do
+    lane :distributeReleaseBuildToFirebase do
         buildApk() # Lane For Building the .apk file
 
         firebase_app_distribution(
@@ -82,7 +83,7 @@ default_platform(:android)
 
     ####
     desc "Lane For Building the .apk file."
-    private_lane :buildApk do
+    lane :buildApk do
       gradle(
              task: "assemble",
              flavor: FLAVOR_NAME,
@@ -97,7 +98,7 @@ default_platform(:android)
 
     ####
     desc "Lane For Building the .aab file."
-    private_lane :buildBundle do
+    lane :buildBundle do
       gradle(
         task: "bundle",
         build_type: "Release",
@@ -112,7 +113,7 @@ default_platform(:android)
 
     ####
     desc "Lane For uploading .aab to play store."
-    private_lane :distributeToPlayStore do
+    lane :distributeToPlayStore do
       buildBundle() # Lane For Building the .aab file
 
       upload_to_play_store(
@@ -131,10 +132,5 @@ default_platform(:android)
      lane :commitCodeToGit do
         git_add(path: "*") # Directly add all files
         git_commit(path: "*") # Directly commit the given file with the given message/will be asked for the message
-
-        push_to_git_remote(
-#             force: true,
-        )
+        push_to_git_remote()
     end
-
-# end
