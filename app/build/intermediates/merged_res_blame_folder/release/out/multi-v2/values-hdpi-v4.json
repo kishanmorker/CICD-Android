@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.smartcodies.cicddemo.app-mergeReleaseResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/differenz238/.gradle/caches/transforms-3/0c012e4434f853d7613c8da4c332fb1b/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

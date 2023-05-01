@@ -1,0 +1,64 @@
+Index: fastlane/report.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<testsuites>\n  <testsuite name=\"fastlane.lanes\">\n    \n    \n    \n      \n      <testcase classname=\"fastlane.lanes\" name=\"0: default_platform\" time=\"0.000769\">\n        \n      </testcase>\n    \n      \n      <testcase classname=\"fastlane.lanes\" name=\"1: git_add\" time=\"0.020105\">\n        \n      </testcase>\n    \n      \n      <testcase classname=\"fastlane.lanes\" name=\"2: git_commit\" time=\"2.566089\">\n        \n      </testcase>\n    \n      \n      <testcase classname=\"fastlane.lanes\" name=\"3: push_to_git_remote\" time=\"1.393666\">\n        \n      </testcase>\n    \n  </testsuite>\n</testsuites>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fastlane/report.xml b/fastlane/report.xml
+--- a/fastlane/report.xml	(revision d9a2248d03dfe6a2895bd478e517e52cc8d6274d)
++++ b/fastlane/report.xml	(date 1682926967408)
+@@ -5,22 +5,49 @@
+     
+     
+       
+-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000769">
++      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000248">
++        
++      </testcase>
++    
++      
++      <testcase classname="fastlane.lanes" name="1: prompt" time="0.801627">
+         
+       </testcase>
+     
+       
+-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.020105">
++      <testcase classname="fastlane.lanes" name="2: prompt" time="0.762557">
+         
+       </testcase>
+     
+       
+-      <testcase classname="fastlane.lanes" name="2: git_commit" time="2.566089">
++      <testcase classname="fastlane.lanes" name="3: prompt" time="0.823056">
+         
+       </testcase>
+     
+       
+-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="1.393666">
++      <testcase classname="fastlane.lanes" name="4: prompt" time="2.316046">
++        
++      </testcase>
++    
++      
++      <testcase classname="fastlane.lanes" name="5: Switch to commitCodeToGit lane" time="0.000197">
++        
++      </testcase>
++    
++      
++      <testcase classname="fastlane.lanes" name="6: git_add" time="0.032765">
++        
++      </testcase>
++    
++      
++      <testcase classname="fastlane.lanes" name="7: git_commit" time="7.360264">
++        
++      </testcase>
++    
++      
++      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="0.94432">
++        
++          <failure message="/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:229:in `chdir&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:229:in `execute_action&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing&apos;&#10;Fastfile:135:in `block in parsing_binding&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/lane.rb:33:in `call&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:204:in `try_switch_to_lane&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:146:in `trigger_action_by_name&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing&apos;&#10;Fastfile:43:in `block in parsing_binding&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/lane.rb:33:in `call&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:49:in `block in execute&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:45:in `chdir&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:45:in `execute&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/commander-4.6.0/lib/commander/command.rb:187:in `call&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/commander-4.6.0/lib/commander/command.rb:157:in `run&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/commands_generator.rb:354:in `run&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/commands_generator.rb:43:in `start&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/gems/fastlane-2.212.2/bin/fastlane:23:in `&lt;top (required)&gt;&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/bin/fastlane:25:in `load&apos;&#10;/usr/local/Cellar/fastlane/2.212.2/libexec/bin/fastlane:25:in `&lt;main&gt;&apos;&#10;&#10;Exit status of command &apos;git push origin main:main --tags&apos; was 1 instead of 0.&#10;To https://github.com/kishanmorker/CICD-Android.git&#10; ! [rejected]        main -&gt; main (fetch first)&#10;error: failed to push some refs to &apos;https://github.com/kishanmorker/CICD-Android.git&apos;&#10;hint: Updates were rejected because the remote contains work that you do&#10;hint: not have locally. This is usually caused by another repository pushing&#10;hint: to the same ref. You may want to first integrate the remote changes&#10;hint: (e.g., &apos;git pull ...&apos;) before pushing again.&#10;hint: See the &apos;Note about fast-forwards&apos; in &apos;git push --help&apos; for details.&#10;" />
+         
+       </testcase>
+     

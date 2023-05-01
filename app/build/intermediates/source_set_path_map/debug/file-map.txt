@@ -1,0 +1,35 @@
+com.smartcodies.cicddemo.app-activity-1.6.0-0 /Users/differenz238/.gradle/caches/transforms-3/0555b76248c7e3c43fa869ba8373c47f/transformed/activity-1.6.0/res
+com.smartcodies.cicddemo.app-startup-runtime-1.1.1-1 /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/res
+com.smartcodies.cicddemo.app-appcompat-1.6.1-2 /Users/differenz238/.gradle/caches/transforms-3/0c012e4434f853d7613c8da4c332fb1b/transformed/appcompat-1.6.1/res
+com.smartcodies.cicddemo.app-recyclerview-1.1.0-3 /Users/differenz238/.gradle/caches/transforms-3/2a0334f94b65985789e36dce3d26a139/transformed/recyclerview-1.1.0/res
+com.smartcodies.cicddemo.app-drawerlayout-1.1.1-4 /Users/differenz238/.gradle/caches/transforms-3/2ce5a1c5fe6ae50c55ad5ac6ea4f3438/transformed/drawerlayout-1.1.1/res
+com.smartcodies.cicddemo.app-emoji2-views-helper-1.2.0-5 /Users/differenz238/.gradle/caches/transforms-3/2e02f592e778b642a9afbd46c1527cc1/transformed/emoji2-views-helper-1.2.0/res
+com.smartcodies.cicddemo.app-lifecycle-livedata-core-2.5.1-6 /Users/differenz238/.gradle/caches/transforms-3/3a42db5a9c3ecb853a21a791506f88e6/transformed/lifecycle-livedata-core-2.5.1/res
+com.smartcodies.cicddemo.app-coordinatorlayout-1.1.0-7 /Users/differenz238/.gradle/caches/transforms-3/3c98d0e30bdcf855582fa8ddd721f0db/transformed/coordinatorlayout-1.1.0/res
+com.smartcodies.cicddemo.app-cardview-1.0.0-8 /Users/differenz238/.gradle/caches/transforms-3/3e1316dadd922a3674eca514378707da/transformed/cardview-1.0.0/res
+com.smartcodies.cicddemo.app-fragment-1.3.6-9 /Users/differenz238/.gradle/caches/transforms-3/56b3c001b80b3441b6eb16dabd074cb7/transformed/fragment-1.3.6/res
+com.smartcodies.cicddemo.app-emoji2-1.2.0-10 /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/res
+com.smartcodies.cicddemo.app-transition-1.2.0-11 /Users/differenz238/.gradle/caches/transforms-3/7d3347bc95533747be4dcc01cbad9c9d/transformed/transition-1.2.0/res
+com.smartcodies.cicddemo.app-firebase-common-20.3.2-12 /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/res
+com.smartcodies.cicddemo.app-play-services-basement-18.1.0-13 /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/res
+com.smartcodies.cicddemo.app-viewpager2-1.0.0-14 /Users/differenz238/.gradle/caches/transforms-3/98ff39309291f37e7424919c92c34399/transformed/viewpager2-1.0.0/res
+com.smartcodies.cicddemo.app-annotation-experimental-1.3.0-15 /Users/differenz238/.gradle/caches/transforms-3/9ed6973fa47a231aa5e287bda14335a1/transformed/annotation-experimental-1.3.0/res
+com.smartcodies.cicddemo.app-constraintlayout-2.1.4-16 /Users/differenz238/.gradle/caches/transforms-3/aa0a10523fe54e19f7e51121c4c21ebb/transformed/constraintlayout-2.1.4/res
+com.smartcodies.cicddemo.app-lifecycle-viewmodel-2.5.1-17 /Users/differenz238/.gradle/caches/transforms-3/ab55df60e44e67a1db25a103bfa935cd/transformed/lifecycle-viewmodel-2.5.1/res
+com.smartcodies.cicddemo.app-lifecycle-process-2.4.1-18 /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/res
+com.smartcodies.cicddemo.app-lifecycle-viewmodel-savedstate-2.5.1-19 /Users/differenz238/.gradle/caches/transforms-3/c0ed3e7493a660ac1332c964fb337083/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
+com.smartcodies.cicddemo.app-lifecycle-runtime-2.5.1-20 /Users/differenz238/.gradle/caches/transforms-3/c1740c6d0826c3f1911c358828fa5aca/transformed/lifecycle-runtime-2.5.1/res
+com.smartcodies.cicddemo.app-appcompat-resources-1.6.1-21 /Users/differenz238/.gradle/caches/transforms-3/e6ba2abde43121036e7c3b0c8ddf5717/transformed/appcompat-resources-1.6.1/res
+com.smartcodies.cicddemo.app-material-1.8.0-22 /Users/differenz238/.gradle/caches/transforms-3/ed1fc16a3e6b63949277232b7ccd5cea/transformed/material-1.8.0/res
+com.smartcodies.cicddemo.app-core-1.9.0-23 /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/res
+com.smartcodies.cicddemo.app-core-ktx-1.9.0-24 /Users/differenz238/.gradle/caches/transforms-3/f246dbd535b4823679287c77a3426588/transformed/core-ktx-1.9.0/res
+com.smartcodies.cicddemo.app-savedstate-1.2.0-25 /Users/differenz238/.gradle/caches/transforms-3/ff00b5f2798e0f9a25d8c85a36c78e68/transformed/savedstate-1.2.0/res
+com.smartcodies.cicddemo.app-res-26 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/generated/crashlytics/res/debug
+com.smartcodies.cicddemo.app-google-services-27 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/generated/res/google-services/debug
+com.smartcodies.cicddemo.app-pngs-28 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/generated/res/pngs/debug
+com.smartcodies.cicddemo.app-resValues-29 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/generated/res/resValues/debug
+com.smartcodies.cicddemo.app-packageDebugResources-30 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.smartcodies.cicddemo.app-packageDebugResources-31 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.smartcodies.cicddemo.app-merged_res-32 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/build/intermediates/merged_res/debug
+com.smartcodies.cicddemo.app-debug-33 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/debug/res
+com.smartcodies.cicddemo.app-main-34 /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/res

@@ -1,0 +1,558 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.databinding:viewbinding:8.0.0] /Users/differenz238/.gradle/caches/transforms-3/eb4464b40763270ea6ac59b50004d2dc/transformed/viewbinding-8.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:15:1-32:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.8.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fc16a3e6b63949277232b7ccd5cea/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/differenz238/.gradle/caches/transforms-3/aa0a10523fe54e19f7e51121c4c21ebb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/differenz238/.gradle/caches/transforms-3/e6ba2abde43121036e7c3b0c8ddf5717/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/differenz238/.gradle/caches/transforms-3/0c012e4434f853d7613c8da4c332fb1b/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/98ff39309291f37e7424919c92c34399/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c535c7085cb41b16604bee2d310e3da8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/differenz238/.gradle/caches/transforms-3/5e32771b0d80ea6402dd16ca2d3dbddf/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/differenz238/.gradle/caches/transforms-3/3239712005659a8257717040f8d84934/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/e8dea7833b2158331f4d4acb18d59c6b/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/0cc156bb9a5d3be62704f45e53d2b0d4/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/differenz238/.gradle/caches/transforms-3/29f0b33688170208dd1faaba572987d8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/differenz238/.gradle/caches/transforms-3/d190469911614da7e01be93d5558341e/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/differenz238/.gradle/caches/transforms-3/56b3c001b80b3441b6eb16dabd074cb7/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/differenz238/.gradle/caches/transforms-3/0555b76248c7e3c43fa869ba8373c47f/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fbb4c625c99d56fae2d2ce2e2298e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/d9d2041c534f246a2fccf0709519460d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/31ec2a8729f42dfaec8ada7a2042a95a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/ab55df60e44e67a1db25a103bfa935cd/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/c0ed3e7493a660ac1332c964fb337083/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/2e02f592e778b642a9afbd46c1527cc1/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/2ce5a1c5fe6ae50c55ad5ac6ea4f3438/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/3c98d0e30bdcf855582fa8ddd721f0db/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/7d3347bc95533747be4dcc01cbad9c9d/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/c50aad81bc3cacc6a91bf5a2c1180d36/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/0fea0f874a5b916644937519e8b10b86/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/21e25908b0894d9c014a8ec40c208484/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/2a0334f94b65985789e36dce3d26a139/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/dd46095669d8da973cdf9163f21f97d3/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f246dbd535b4823679287c77a3426588/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/f256eb761d5f03b0582c2a00d36a6fe4/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/8c3c04eb0f80330fbefd3f3e73e387f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/c1740c6d0826c3f1911c358828fa5aca/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/ff00b5f2798e0f9a25d8c85a36c78e68/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/3e1316dadd922a3674eca514378707da/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/differenz238/.gradle/caches/transforms-3/76f06825dab41f838f628cc74c5e1325/transformed/firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/21d415fd19fc9b402f5edc5949c385b4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/03408032ed86ed02ab55172cffb1979d/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/differenz238/.gradle/caches/transforms-3/3857acf0e2917e0fb674b04b8ee6433e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/3a42db5a9c3ecb853a21a791506f88e6/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/differenz238/.gradle/caches/transforms-3/8ae008e96d8cabcb130029bc369f5ba9/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/differenz238/.gradle/caches/transforms-3/dac36bdfff10e670d89ebb81dafd474f/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/c5148a4807b124bc986993c3bdb1d3f0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/8fd23e49c9d94fdb4527ccf6610e7b16/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/2e14f6365c87b34a79e99ac8b87c720d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/f3f01ab4e1bd81f7cd79071601f8b2ba/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/differenz238/.gradle/caches/transforms-3/9ed6973fa47a231aa5e287bda14335a1/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.material:material:1.8.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fc16a3e6b63949277232b7ccd5cea/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fc16a3e6b63949277232b7ccd5cea/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/differenz238/.gradle/caches/transforms-3/aa0a10523fe54e19f7e51121c4c21ebb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/differenz238/.gradle/caches/transforms-3/aa0a10523fe54e19f7e51121c4c21ebb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c535c7085cb41b16604bee2d310e3da8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c535c7085cb41b16604bee2d310e3da8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/differenz238/.gradle/caches/transforms-3/3239712005659a8257717040f8d84934/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/differenz238/.gradle/caches/transforms-3/3239712005659a8257717040f8d84934/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/e8dea7833b2158331f4d4acb18d59c6b/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/e8dea7833b2158331f4d4acb18d59c6b/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/0cc156bb9a5d3be62704f45e53d2b0d4/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/0cc156bb9a5d3be62704f45e53d2b0d4/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/differenz238/.gradle/caches/transforms-3/29f0b33688170208dd1faaba572987d8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/differenz238/.gradle/caches/transforms-3/29f0b33688170208dd1faaba572987d8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/differenz238/.gradle/caches/transforms-3/d190469911614da7e01be93d5558341e/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/differenz238/.gradle/caches/transforms-3/d190469911614da7e01be93d5558341e/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/21d415fd19fc9b402f5edc5949c385b4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/21d415fd19fc9b402f5edc5949c385b4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:10:9-54
+	tools:targetApi
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:14:9-46
+	android:dataExtractionRules
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:9:9-65
+activity#com.smartcodies.cicddemo.MainActivity
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:exported
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:17:13-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.0.0] /Users/differenz238/.gradle/caches/transforms-3/eb4464b40763270ea6ac59b50004d2dc/transformed/viewbinding-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.0.0] /Users/differenz238/.gradle/caches/transforms-3/eb4464b40763270ea6ac59b50004d2dc/transformed/viewbinding-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.8.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fc16a3e6b63949277232b7ccd5cea/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fc16a3e6b63949277232b7ccd5cea/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/differenz238/.gradle/caches/transforms-3/aa0a10523fe54e19f7e51121c4c21ebb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/differenz238/.gradle/caches/transforms-3/aa0a10523fe54e19f7e51121c4c21ebb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/differenz238/.gradle/caches/transforms-3/e6ba2abde43121036e7c3b0c8ddf5717/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/differenz238/.gradle/caches/transforms-3/e6ba2abde43121036e7c3b0c8ddf5717/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/differenz238/.gradle/caches/transforms-3/0c012e4434f853d7613c8da4c332fb1b/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/differenz238/.gradle/caches/transforms-3/0c012e4434f853d7613c8da4c332fb1b/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/98ff39309291f37e7424919c92c34399/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/98ff39309291f37e7424919c92c34399/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c535c7085cb41b16604bee2d310e3da8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c535c7085cb41b16604bee2d310e3da8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/differenz238/.gradle/caches/transforms-3/5e32771b0d80ea6402dd16ca2d3dbddf/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/differenz238/.gradle/caches/transforms-3/5e32771b0d80ea6402dd16ca2d3dbddf/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/differenz238/.gradle/caches/transforms-3/3239712005659a8257717040f8d84934/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/differenz238/.gradle/caches/transforms-3/3239712005659a8257717040f8d84934/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/e8dea7833b2158331f4d4acb18d59c6b/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/e8dea7833b2158331f4d4acb18d59c6b/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/0cc156bb9a5d3be62704f45e53d2b0d4/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/0cc156bb9a5d3be62704f45e53d2b0d4/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/differenz238/.gradle/caches/transforms-3/29f0b33688170208dd1faaba572987d8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/differenz238/.gradle/caches/transforms-3/29f0b33688170208dd1faaba572987d8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/differenz238/.gradle/caches/transforms-3/d190469911614da7e01be93d5558341e/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/differenz238/.gradle/caches/transforms-3/d190469911614da7e01be93d5558341e/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/differenz238/.gradle/caches/transforms-3/56b3c001b80b3441b6eb16dabd074cb7/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/differenz238/.gradle/caches/transforms-3/56b3c001b80b3441b6eb16dabd074cb7/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/differenz238/.gradle/caches/transforms-3/0555b76248c7e3c43fa869ba8373c47f/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/differenz238/.gradle/caches/transforms-3/0555b76248c7e3c43fa869ba8373c47f/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fbb4c625c99d56fae2d2ce2e2298e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/ed1fbb4c625c99d56fae2d2ce2e2298e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/d9d2041c534f246a2fccf0709519460d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/d9d2041c534f246a2fccf0709519460d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/31ec2a8729f42dfaec8ada7a2042a95a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/31ec2a8729f42dfaec8ada7a2042a95a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/ab55df60e44e67a1db25a103bfa935cd/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/ab55df60e44e67a1db25a103bfa935cd/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/c0ed3e7493a660ac1332c964fb337083/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/c0ed3e7493a660ac1332c964fb337083/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/2e02f592e778b642a9afbd46c1527cc1/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/2e02f592e778b642a9afbd46c1527cc1/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/2ce5a1c5fe6ae50c55ad5ac6ea4f3438/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/2ce5a1c5fe6ae50c55ad5ac6ea4f3438/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/3c98d0e30bdcf855582fa8ddd721f0db/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/3c98d0e30bdcf855582fa8ddd721f0db/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/7d3347bc95533747be4dcc01cbad9c9d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/7d3347bc95533747be4dcc01cbad9c9d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/c50aad81bc3cacc6a91bf5a2c1180d36/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/c50aad81bc3cacc6a91bf5a2c1180d36/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/0fea0f874a5b916644937519e8b10b86/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/0fea0f874a5b916644937519e8b10b86/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/21e25908b0894d9c014a8ec40c208484/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/21e25908b0894d9c014a8ec40c208484/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/2a0334f94b65985789e36dce3d26a139/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/2a0334f94b65985789e36dce3d26a139/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/dd46095669d8da973cdf9163f21f97d3/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/differenz238/.gradle/caches/transforms-3/dd46095669d8da973cdf9163f21f97d3/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f246dbd535b4823679287c77a3426588/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f246dbd535b4823679287c77a3426588/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/f256eb761d5f03b0582c2a00d36a6fe4/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/f256eb761d5f03b0582c2a00d36a6fe4/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/8c3c04eb0f80330fbefd3f3e73e387f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/8c3c04eb0f80330fbefd3f3e73e387f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/c1740c6d0826c3f1911c358828fa5aca/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/c1740c6d0826c3f1911c358828fa5aca/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/ff00b5f2798e0f9a25d8c85a36c78e68/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/ff00b5f2798e0f9a25d8c85a36c78e68/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/3e1316dadd922a3674eca514378707da/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/3e1316dadd922a3674eca514378707da/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/differenz238/.gradle/caches/transforms-3/76f06825dab41f838f628cc74c5e1325/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/differenz238/.gradle/caches/transforms-3/76f06825dab41f838f628cc74c5e1325/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/21d415fd19fc9b402f5edc5949c385b4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/21d415fd19fc9b402f5edc5949c385b4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/03408032ed86ed02ab55172cffb1979d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/03408032ed86ed02ab55172cffb1979d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/differenz238/.gradle/caches/transforms-3/3857acf0e2917e0fb674b04b8ee6433e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/differenz238/.gradle/caches/transforms-3/3857acf0e2917e0fb674b04b8ee6433e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/3a42db5a9c3ecb853a21a791506f88e6/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/differenz238/.gradle/caches/transforms-3/3a42db5a9c3ecb853a21a791506f88e6/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/differenz238/.gradle/caches/transforms-3/8ae008e96d8cabcb130029bc369f5ba9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/differenz238/.gradle/caches/transforms-3/8ae008e96d8cabcb130029bc369f5ba9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/differenz238/.gradle/caches/transforms-3/dac36bdfff10e670d89ebb81dafd474f/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/differenz238/.gradle/caches/transforms-3/dac36bdfff10e670d89ebb81dafd474f/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/c5148a4807b124bc986993c3bdb1d3f0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/c5148a4807b124bc986993c3bdb1d3f0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/8fd23e49c9d94fdb4527ccf6610e7b16/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/8fd23e49c9d94fdb4527ccf6610e7b16/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/2e14f6365c87b34a79e99ac8b87c720d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/2e14f6365c87b34a79e99ac8b87c720d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/f3f01ab4e1bd81f7cd79071601f8b2ba/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/differenz238/.gradle/caches/transforms-3/f3f01ab4e1bd81f7cd79071601f8b2ba/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/differenz238/.gradle/caches/transforms-3/9ed6973fa47a231aa5e287bda14335a1/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/differenz238/.gradle/caches/transforms-3/9ed6973fa47a231aa5e287bda14335a1/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/differenz238/Documents/KishanMorker/Knowledge sharing session/CICD-Android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:25:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:24:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/317abeaa7be721f25f0dbfc31b47634d/transformed/firebase-crashlytics-ktx-18.3.6/AndroidManifest.xml:27:17-130
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/c76f0217e6d748e2dba001b58124f58c/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/a99c3c3fa82300b858643c327646e88e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/differenz238/.gradle/caches/transforms-3/d6a176ce39d6dd03bd23ec460b3db2a7/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/differenz238/.gradle/caches/transforms-3/66ea00010c0939ee5a4936a6813a9774/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/2a52cee8dea3370e3ae0eee4870da08d/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/104fd2c8e913ddc3a11bf123b7605ac0/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/differenz238/.gradle/caches/transforms-3/a6cfebbbc670ba210981b9d641b86ad1/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/differenz238/.gradle/caches/transforms-3/8745a18453f6537e83902562f4247be3/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/64691d1adbe75f6c9b8f80a3744e4e9a/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/differenz238/.gradle/caches/transforms-3/8aa77631f99b76897873776ff90777c9/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/differenz238/.gradle/caches/transforms-3/89f770cde4f26f7ab34bc397817d6ef3/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/differenz238/.gradle/caches/transforms-3/07be82bf9e875efd22420a38eaa76a46/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/differenz238/.gradle/caches/transforms-3/5f314847e274a96ee464375c9fe726c2/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.smartcodies.cicddemo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.smartcodies.cicddemo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/differenz238/.gradle/caches/transforms-3/f0d0bd9e23b7b517675eb9c91b2b293c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/43e23725a5b9223ddab42bbd748ee89e/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/differenz238/.gradle/caches/transforms-3/588082c5e91f21f41bd62e90720e9510/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/differenz238/.gradle/caches/transforms-3/c02c708390704c3d6d44dbbce97d83ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
