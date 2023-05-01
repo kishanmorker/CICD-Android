@@ -5,47 +5,22 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000279">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000246">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: prompt" time="0.707914">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.023804">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: prompt" time="0.776908">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="3.607809">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: prompt" time="1.583043">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="4: prompt" time="1.518798">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="5: Switch to commitCodeToGit lane" time="0.000193">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="6: git_add" time="0.097935">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="7: git_commit" time="5.605912">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="3.329852">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="1.635148">
         
       </testcase>
     
