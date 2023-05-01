@@ -1,9 +1,8 @@
 package com.smartcodies.cicddemo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.smartcodies.cicddemo.databinding.ActivityMainBinding
-
 class MainActivity : AppCompatActivity() {
     private lateinit var mBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(mBinding.root)
 
 //        throw RuntimeException("Test Crash abc123") // Force a crash
-
         mBinding.tvText.text = "@${mBinding.tvText.text}" + if (BuildConfig.DEBUG)
             "Build Type: DEBUG" else "Build Type: Release"
 

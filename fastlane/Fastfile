@@ -11,9 +11,9 @@
 PACKAGE_NAME = "com.smartcodies.cicddemo"
 FIREBASE_APP_ID = "1:217528119112:android:5176557d338e0fa7e2cd7d"
 
-FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/another_another_key.json"
 # FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/final.json"
-PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/another_another_key.json"
 # PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/final.json"
 
 RELEASE_NOTES_FILE = "./FirebaseAppDistributionConfig/release_notes.txt"
@@ -36,7 +36,7 @@ default_platform(:android) # Defines a default platform to not have to specify t
 
     desc "Lane For Incrementing versionCode, Firebase app distribution, Play store upload & git commit"
     lane :buildAndDistribute do
-        # run_unit_tests()
+        # runUnitTests()
         if prompt(text: "Do you want to increment versionCode?", boolean: true) then incrementVersionCodeInProjectGradle() end
         if prompt(text: "Do you want to share build/Apk to firebase?", boolean: true) then distributeReleaseBuildToFirebase() end
         if prompt(text: "Do you want to upload your app to PlayStore?", boolean: true) then distributeToPlayStore() end
