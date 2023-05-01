@@ -80,3 +80,7 @@ app/release/output.json
 #new---->
 FirebaseAppDistributionConfig/
 serviceJsonKey/
+FirebaseAppDistributionConfig/**
+serviceJsonKey/**
+**/FirebaseAppDistributionConfig/**
+**/serviceJsonKey/**

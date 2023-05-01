@@ -77,6 +77,12 @@ lint/tmp/
 app/release/output.json
 .idea/codeStyles/
 
+
 #new---->
 FirebaseAppDistributionConfig/
 serviceJsonKey/
+FirebaseAppDistributionConfig/**
+serviceJsonKey/**
+**/FirebaseAppDistributionConfig/**
+**/serviceJsonKey/**
+
