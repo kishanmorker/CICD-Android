@@ -2,3 +2,8 @@ FirebaseAppDistributionConfig/
 serviceJsonKey/
 keystore/
 keystore/
+
+
+another_another_key.json
+diff_credentials.json
+final.json
