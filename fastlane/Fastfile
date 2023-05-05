@@ -11,10 +11,8 @@
 PACKAGE_NAME = "com.smartcodies.cicddemo"
 FIREBASE_APP_ID = "1:217528119112:android:5176557d338e0fa7e2cd7d"
 
-FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/another_another_key.json"
-# FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/final.json"
-PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/another_another_key.json"
-# PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/final.json"
+FIREBASE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
+PLAY_STORE_LOGIN_CREDENTIALS = "./serviceJsonKey/diff_credentials.json"
 
 RELEASE_NOTES_FILE = "./FirebaseAppDistributionConfig/release_notes.txt"
 TESTERS_FILE = "./FirebaseAppDistributionConfig/testers.txt"
