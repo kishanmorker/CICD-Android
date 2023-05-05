@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d3c209a-e5df-42a2-9e24-6d651771d94b" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/Appfile" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/Appfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/Fastfile" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/Fastfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastlane/report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/report.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

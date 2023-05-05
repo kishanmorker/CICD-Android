@@ -26,7 +26,7 @@ APK_FILE_PATH = "./app/build/outputs/apk/release/app-release.apk"
 BUNDLE_FILE_PATH = "./app/build/outputs/bundle/release/app-release.aab"
 FLAVOR_NAME = ""
 
-default_platform(:android) # Defines a default platform to not have to specify the platform
+# default_platform(:android) # Defines a default platform
 
 #   before_all do
 #     ENV["PACKAGE_NAME"] = "com.cicddemo"
