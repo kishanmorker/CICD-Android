@@ -5,97 +5,97 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: prompt" time="1.307749">
+      <testcase classname="fastlane.lanes" name="00: prompt" time="1.206079">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: Switch to incrementVersionCodeInProjectGradle lane" time="0.000213">
+      <testcase classname="fastlane.lanes" name="01: Switch to incrementVersionCodeInProjectGradle lane" time="0.000293">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: google_play_track_version_codes" time="3.220988">
+      <testcase classname="fastlane.lanes" name="02: google_play_track_version_codes" time="3.023699">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: increment_version_code" time="0.00135">
+      <testcase classname="fastlane.lanes" name="03: increment_version_code" time="0.002582">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: prompt" time="1.242619">
+      <testcase classname="fastlane.lanes" name="04: prompt" time="0.66831">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: Switch to distributeReleaseBuildToFirebase lane" time="0.000384">
+      <testcase classname="fastlane.lanes" name="05: Switch to distributeReleaseBuildToFirebase lane" time="0.000268">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: Switch to buildApk lane" time="0.000184">
+      <testcase classname="fastlane.lanes" name="06: Switch to buildApk lane" time="0.00019">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: assembleRelease" time="26.223941">
+      <testcase classname="fastlane.lanes" name="07: assembleRelease" time="52.307123">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: firebase_app_distribution" time="12.862978">
+      <testcase classname="fastlane.lanes" name="08: firebase_app_distribution" time="14.586716">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: prompt" time="2.033038">
+      <testcase classname="fastlane.lanes" name="09: prompt" time="0.807639">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: Switch to distributeToPlayStore lane" time="0.000364">
+      <testcase classname="fastlane.lanes" name="10: Switch to distributeToPlayStore lane" time="0.000263">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: Switch to buildBundle lane" time="0.000279">
+      <testcase classname="fastlane.lanes" name="11: Switch to buildBundle lane" time="0.000195">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: bundleRelease" time="6.008864">
+      <testcase classname="fastlane.lanes" name="12: bundleRelease" time="6.410683">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="13: upload_to_play_store" time="18.086874">
+      <testcase classname="fastlane.lanes" name="13: upload_to_play_store" time="21.843404">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="14: prompt" time="1.683454">
+      <testcase classname="fastlane.lanes" name="14: prompt" time="1.295583">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="15: Switch to commitCodeToGit lane" time="0.000272">
+      <testcase classname="fastlane.lanes" name="15: Switch to commitCodeToGit lane" time="0.000356">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="16: git_add" time="0.730125">
+      <testcase classname="fastlane.lanes" name="16: git_add" time="0.724888">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="17: git_commit" time="19.033312">
+      <testcase classname="fastlane.lanes" name="17: git_commit" time="3.371116">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="18: push_to_git_remote" time="3.97809">
+      <testcase classname="fastlane.lanes" name="18: push_to_git_remote" time="4.450698">
         
       </testcase>
     

@@ -8,7 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">CicdDemo</string>
-    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">a3c5088114834205ade853873eea693f</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">c2c1ed5b8f484796bd78592e09061cf2</string>
     <string name="default_web_client_id" translatable="false">217528119112-npstsph93vs9435268g2s5ffqtm3o3pp.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://apzora-69a2e.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">217528119112</string>
