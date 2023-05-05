@@ -32,11 +32,11 @@ FLAVOR_NAME = ""
 #     ENV["PACKAGE_NAME"] = "com.cicddemo"
 #   end
 
-    desc "Lane For Incrementing versionCode, Firebase app distribution, Play store upload & git commit"
+    desc "Lane for Incrementing versionCode, Firebase app distribution, Play store upload & Git commit"
     lane :buildAndDistribute do
-        # runUnitTests()
+        # run Unit Tests
         if prompt(text: "Do you want to increment versionCode?", boolean: true) then incrementVersionCodeInProjectGradle() end
-        if prompt(text: "Do you want to share build/Apk to firebase?", boolean: true) then distributeReleaseBuildToFirebase() end
+        if prompt(text: "Do you want to share build/Apk to Firebase?", boolean: true) then distributeReleaseBuildToFirebase() end
         if prompt(text: "Do you want to upload your app to PlayStore?", boolean: true) then distributeToPlayStore() end
         if prompt(text: "Do you want to commit code to Git?", boolean: true) then commitCodeToGit() end
 
@@ -45,7 +45,7 @@ FLAVOR_NAME = ""
 
 
     ####
-    desc "Lane For fetching version code from play console and incrementing version code."
+    desc "Lane for fetching version code from play console and incrementing version code."
     lane :incrementVersionCodeInProjectGradle do
       version_code_from_play_store_strings = google_play_track_version_codes(
         package_name: PACKAGE_NAME,   # ENV["PACKAGE_NAME"]
@@ -63,7 +63,7 @@ FLAVOR_NAME = ""
     ####
     desc "Lane for distributing Release app using Firebase App Distributions."
     lane :distributeReleaseBuildToFirebase do
-        buildApk() # Lane For Building the .apk file
+        buildApk() # Lane for building the .apk file
 
         firebase_app_distribution(
             android_artifact_path: APK_FILE_PATH, # path of .apk/.aab bundle file
@@ -80,7 +80,7 @@ FLAVOR_NAME = ""
     end
 
     ####
-    desc "Lane For Building the .apk file."
+    desc "Lane for building the .apk file."
     lane :buildApk do
       gradle(
              task: "assemble",
@@ -95,7 +95,7 @@ FLAVOR_NAME = ""
     end
 
     ####
-    desc "Lane For Building the .aab file."
+    desc "Lane for building the .aab file."
     lane :buildBundle do
       gradle(
         task: "bundle",
@@ -110,9 +110,9 @@ FLAVOR_NAME = ""
     end
 
     ####
-    desc "Lane For uploading .aab to play store."
+    desc "Lane for uploading .aab to play store."
     lane :distributeToPlayStore do
-      buildBundle() # Lane For Building the .aab file
+      buildBundle() # Lane for building the .aab file
 
       upload_to_play_store(
         track: "internal", # it can be -> production, beta, alpha, internal
@@ -126,9 +126,10 @@ FLAVOR_NAME = ""
     end
 
     ####
-    desc "Lane For git commit."
+    desc "Lane for git commit."
      lane :commitCodeToGit do
         git_add(path: "*") # Directly add all files
         git_commit(path: "*") # Directly commit the given file with the given message/will be asked for the message
-        push_to_git_remote()
+
+        push_to_git_remote() # Lets you push your local commits to a remote git repo
     end

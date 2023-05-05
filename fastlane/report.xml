@@ -5,37 +5,97 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: prompt" time="14.343351">
+      <testcase classname="fastlane.lanes" name="00: prompt" time="1.307749">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: Switch to incrementVersionCodeInProjectGradle lane" time="0.001024">
+      <testcase classname="fastlane.lanes" name="01: Switch to incrementVersionCodeInProjectGradle lane" time="0.000213">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: google_play_track_version_codes" time="2.51404">
+      <testcase classname="fastlane.lanes" name="02: google_play_track_version_codes" time="3.220988">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: increment_version_code" time="0.003839">
+      <testcase classname="fastlane.lanes" name="03: increment_version_code" time="0.00135">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: prompt" time="2.393413">
+      <testcase classname="fastlane.lanes" name="04: prompt" time="1.242619">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: prompt" time="0.831739">
+      <testcase classname="fastlane.lanes" name="05: Switch to distributeReleaseBuildToFirebase lane" time="0.000384">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: prompt" time="0.896057">
+      <testcase classname="fastlane.lanes" name="06: Switch to buildApk lane" time="0.000184">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: assembleRelease" time="26.223941">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: firebase_app_distribution" time="12.862978">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: prompt" time="2.033038">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: Switch to distributeToPlayStore lane" time="0.000364">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: Switch to buildBundle lane" time="0.000279">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: bundleRelease" time="6.008864">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="13: upload_to_play_store" time="18.086874">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="14: prompt" time="1.683454">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="15: Switch to commitCodeToGit lane" time="0.000272">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="16: git_add" time="0.730125">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="17: git_commit" time="19.033312">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="18: push_to_git_remote" time="3.97809">
         
       </testcase>
     
